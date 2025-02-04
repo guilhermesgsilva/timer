@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Timer</title>
+    <title>Countdown Timer</title>
   </head>
-  <body></body>
+  <body>
+    <header><h1>Countdown Timer</h1></header>
+    <main>
+      <section>
+        <h2 aria-live="polite">Set Countdown</h2>
+        <form>
+          <label for="hours">Hours</label>
+          <input
+            id="hours"
+            type="number"
+            max="99"
+            min="0"
+            value="00"
+            aria-live="polite"
+          />
+          <label for="minutes">Minutes</label>
+          <input
+            id="minutes"
+            type="number"
+            max="59"
+            min="0"
+            value="00"
+            aria-live="polite"
+          />
+          <label for="seconds">Seconds</label>
+          <input
+            id="seconds"
+            type="number"
+            max="59"
+            min="0"
+            value="00"
+            aria-live="polite"
+          />
+          <button id="start" type="submit" aria-live="polite">Start</button>
+          <button id="reset" type="button">Reset</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
