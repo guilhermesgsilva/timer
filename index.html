@@ -5,41 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown Timer</title>
   </head>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
   <body>
     <header><h1>Countdown Timer</h1></header>
     <main>
       <section>
-        <h2 aria-live="polite">Set Countdown</h2>
-        <form>
-          <label for="hours">Hours</label>
-          <input
-            id="hours"
-            type="number"
-            max="99"
-            min="0"
-            value="00"
-            aria-live="polite"
-          />
-          <label for="minutes">Minutes</label>
-          <input
-            id="minutes"
-            type="number"
-            max="59"
-            min="0"
-            value="00"
-            aria-live="polite"
-          />
-          <label for="seconds">Seconds</label>
-          <input
-            id="seconds"
-            type="number"
-            max="59"
-            min="0"
-            value="00"
-            aria-live="polite"
-          />
-          <button id="start" type="submit" aria-live="polite">Start</button>
-          <button id="reset" type="button">Reset</button>
+        <form id="form">
+          <div>
+            <label for="hours">Hours</label>
+            <input
+              id="hours"
+              type="number"
+              max="99"
+              min="0"
+              value="0"
+              aria-live="polite"
+            />
+            <label for="minutes">Minutes</label>
+            <input
+              id="minutes"
+              type="number"
+              max="59"
+              min="0"
+              value="0"
+              aria-live="polite"
+            />
+            <label for="seconds">Seconds</label>
+            <input
+              id="seconds"
+              type="number"
+              max="59"
+              min="0"
+              value="0"
+              aria-live="polite"
+            />
+          </div>
+          <div>
+            <button id="start" type="submit" aria-live="polite">Start</button>
+            <button id="reset" type="button">Reset</button>
+          </div>
         </form>
       </section>
     </main>
