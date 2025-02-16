@@ -12,36 +12,42 @@
     <main>
       <section>
         <form id="form">
-          <div>
-            <label for="hours">Hours</label>
-            <input
-              id="hours"
-              type="number"
-              max="99"
-              min="0"
-              value="0"
-              aria-live="polite"
-            />
-            <label for="minutes">Minutes</label>
-            <input
-              id="minutes"
-              type="number"
-              max="59"
-              min="0"
-              value="0"
-              aria-live="polite"
-            />
-            <label for="seconds">Seconds</label>
-            <input
-              id="seconds"
-              type="number"
-              max="59"
-              min="0"
-              value="0"
-              aria-live="polite"
-            />
+          <div id="display">
+            <div>
+              <input
+                id="hours"
+                type="number"
+                max="99"
+                min="0"
+                value="0"
+                aria-live="polite"
+              />
+              <label for="hours">Hours</label>
+            </div>
+            <div>
+              <input
+                id="minutes"
+                type="number"
+                max="59"
+                min="0"
+                value="0"
+                aria-live="polite"
+              />
+              <label for="minutes">Minutes</label>
+            </div>
+            <div>
+              <input
+                id="seconds"
+                type="number"
+                max="59"
+                min="0"
+                value="0"
+                aria-live="polite"
+              />
+              <label for="seconds">Seconds</label>
+            </div>
           </div>
-          <div>
+          <div id="controls">
             <button id="start" type="submit" aria-live="polite">Start</button>
             <button id="reset" type="button">Reset</button>
           </div>
