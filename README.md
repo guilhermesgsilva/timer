@@ -9,7 +9,7 @@ A simple and lightweight timer application built using vanilla JavaScript, HTML,
 - Built with pure JavaScript, no dependencies
 
 ## Demo
-[Live Demo](https://demo-link.com)
+[Live Demo](https://guilhermesgsilva.github.io/timer/)
 
 ## Installation
 
