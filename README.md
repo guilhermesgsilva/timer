@@ -15,11 +15,11 @@ A simple and lightweight timer application built using vanilla JavaScript, HTML,
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/timer-app.git
+   git clone https://github.com/guilhermesgsilva/timer.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd timer-app
+   cd timer
    ```
 3. Open `index.html` in your browser.
 
